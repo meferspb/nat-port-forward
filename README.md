@@ -15,3 +15,21 @@ $LOCAL_IP is the internal "fake" address of the machine that needs to be "thrown
 $PORT_in - The port that will be accessed from the outside and get to the local machine. Port on the WAN side of the interface.
 
 $PORT_out - The port to which traffic is redirected inside the local network. An open port on the local machine.
+
+---Русский---
+
+Легко добавить проброс портов через NAT.
+
+В настройке скрипта надо определить переменные внутри файла. 
+
+Определить внешний ip адрес ip внутри локальной сети.
+
+Определить порт на внешнем ip адресе и определить порт для переадресации внутри сети.
+
+$EXT_IP - внешний IP адрес
+
+$LOCAL_IP -внутренний "фэйковый" адрес машины, которую надо "выкидывать" наружу внутри локальной сети.
+
+$PORT_in - Порт, на который будут заходить извне и попадать на локальную машину. Порт со стороны WAN интерфейса.
+
+$PORT_out - Порт на который переадресуется трафик внутри локальной сети. Открытый порт на локальной машине.
